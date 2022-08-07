@@ -1,0 +1,196 @@
+   * {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: Gilroy;
+   }
+
+   html,
+   body {
+       height: 100%;
+       width: 100%;
+   }
+
+   #main {
+  animation:  apj 2s linear  1 both;
+  overflow: scroll;
+    height: 100%;
+       width: 100%;
+       background-color: black;
+       color: white;
+   }
+   @keyframes  apj 
+   {
+    0%{
+        opacity: 0;
+    }
+    
+   }
+
+   nav {
+       z-index: 999;
+       padding: 4vw 2vw;
+       justify-content: center;
+       gap: 4vw;
+       align-items: center;
+       height: 2vw;
+       width: 100%;
+       display: flex;
+
+   }
+
+   nav>h1 {
+       animation: ab 2s cubic-bezier(0.19, 1, 0.22, 1) 1 both;
+       font-weight: 100;
+   }
+
+   @keyframes ab {
+       0% {
+           margin-top: -100%;
+       }
+
+       50% {
+           transform: rotateZ(60deg);
+       }
+
+       80% {
+           transform: rotateZ(-60deg);
+       }
+
+   }
+
+   .center {
+
+       height: 100%;
+       width: 100%;
+       display: flex;
+   }
+
+   .right {
+       animation: d 2s cubic-bezier(0.19, 1, 0.22, 1) 2 both;
+       margin-top: -8vw;
+       width: 15%;
+       height: 100%;
+       background-image: url(./OIP.jfif);
+       background-position: -250px;
+       background-size: cover;
+   }
+
+   .center2 {
+       padding: 25PX 5px;
+       width: 70%;
+       color: white;
+   }
+
+   .CP1 {
+       margin-top: 20px;
+       margin-left: 200px;
+       text-transform: uppercase;
+   }
+
+   .CP1 h1 {
+       animation: ab 2s cubic-bezier(0.19, 1, 0.22, 1) 1 both;
+       margin-top: -1vw;
+       font-weight: 600;
+       margin-left:-5px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15vw;
+       ani
+   }
+
+   .CP1 .p1 {
+       animation: ab 2s cubic-bezier(0.19, 1, 0.22, 1) 1 both;
+       margin-left: 25px;
+       font-size: 1vw;
+   }
+
+   .p2 {
+       animation: ab 2s cubic-bezier(0.19, 1, 0.22, 1) 1 both;
+       letter-spacing: 2px;
+       font-size: 2vw;
+       font-weight: 100;
+   }
+
+
+   .left {
+       margin-left: 149px;
+       margin-top: -8vw;
+       width: 15%;
+       height: 100%;
+       background-image: url(./OIP\ \(1\).jfif);
+       background-position: 0 0px;
+       background-size: cover;
+       animation: d 2s cubic-bezier(0.19, 1, 0.22, 1) 2 both;
+   }
+
+   @keyframes d {
+       0% {
+           margin-left: 800px;
+       }
+
+   }
+
+   .c3 {
+       gap: 5px;
+       position: relative;
+       display: flex;
+       margin-left: 65px;
+       margin-top: 80px;
+       height: 30%;
+       width: 100%;
+
+       overflow: hidden;
+   }
+
+   .box1 {
+       overflow: hidden;
+       height: 100%;
+       width: 35%;
+       flex-shrink: 0;
+       background-color: red;
+       border: 2px solid black;
+       animation: la 10s linear 1 forwards;
+   }
+
+   @keyframes la {
+       0% {
+    
+           transform: scale(0.4);
+           background-image: url("./OIP\ \(2\).jfif");
+        }
+        
+        25% {
+           transform: scale(0.3);
+       }
+   }
+
+   #b1 {
+
+       background-image: url(./OIP.jfif);
+       background-size: cover;
+       background-position: center;
+   }
+
+   #b2 {
+
+       background-image: url(./download.jfif);
+       background-size: cover;
+       background-position: 0 -6px;
+   }
+
+   #b3 {
+       width: 100%;
+       background-image: url("./OIP\ \(3\).jfif");
+       background-size: cover;
+       background-position: -60px -10px;
+   }
+
+   {
+       0% {
+           margin-right: -100px;
+       }
+
+       100% {
+           margin-left: -50%;
+       }
+   }
